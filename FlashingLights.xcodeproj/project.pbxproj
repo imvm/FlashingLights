@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7F8AF825D1FF7E0083C08E /* FlashingLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F8AF725D1FF7E0083C08E /* FlashingLightView.swift */; };
+		2B7F8AFD25D1FFD60083C08E /* FlashingLightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F8AFC25D1FFD60083C08E /* FlashingLightViewModel.swift */; };
+		2B7F8B0125D200030083C08E /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F8B0025D200030083C08E /* Color+Random.swift */; };
 		2B9561FB25C3714700E48C39 /* FlashingLightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9561FA25C3714700E48C39 /* FlashingLightsApp.swift */; };
 		2B9561FD25C3714700E48C39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9561FC25C3714700E48C39 /* ContentView.swift */; };
 		2B9561FF25C3714800E48C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9561FE25C3714800E48C39 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7F8AF725D1FF7E0083C08E /* FlashingLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashingLightView.swift; sourceTree = "<group>"; };
+		2B7F8AFC25D1FFD60083C08E /* FlashingLightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashingLightViewModel.swift; sourceTree = "<group>"; };
+		2B7F8B0025D200030083C08E /* Color+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Random.swift"; sourceTree = "<group>"; };
 		2B9561F725C3714700E48C39 /* FlashingLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashingLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9561FA25C3714700E48C39 /* FlashingLightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashingLightsApp.swift; sourceTree = "<group>"; };
 		2B9561FC25C3714700E48C39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B7F8B0325D200070083C08E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F8B0025D200030083C08E /* Color+Random.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2B9561EE25C3714700E48C39 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +68,9 @@
 			children = (
 				2B9561FA25C3714700E48C39 /* FlashingLightsApp.swift */,
 				2B9561FC25C3714700E48C39 /* ContentView.swift */,
+				2B7F8AFC25D1FFD60083C08E /* FlashingLightViewModel.swift */,
+				2B7F8AF725D1FF7E0083C08E /* FlashingLightView.swift */,
+				2B7F8B0325D200070083C08E /* Extensions */,
 				2B9561FE25C3714800E48C39 /* Assets.xcassets */,
 				2B95620325C3714800E48C39 /* Info.plist */,
 				2B95620025C3714800E48C39 /* Preview Content */,
@@ -140,6 +157,9 @@
 			files = (
 				2B9561FD25C3714700E48C39 /* ContentView.swift in Sources */,
 				2B9561FB25C3714700E48C39 /* FlashingLightsApp.swift in Sources */,
+				2B7F8AF825D1FF7E0083C08E /* FlashingLightView.swift in Sources */,
+				2B7F8B0125D200030083C08E /* Color+Random.swift in Sources */,
+				2B7F8AFD25D1FFD60083C08E /* FlashingLightViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
