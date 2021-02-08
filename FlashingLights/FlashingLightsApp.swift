@@ -11,7 +11,7 @@ import SwiftUI
 struct FlashingLightsApp: App {
     var body: some Scene {
         WindowGroup {
-            FlashingLightView()
+            MainView()
         }
     }
 }

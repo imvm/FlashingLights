@@ -12,5 +12,6 @@ struct FlashingLightView: View {
 
     var body: some View {
         viewModel.color.ignoresSafeArea(.all)
+            .navigationBarHidden(true)
     }
 }
